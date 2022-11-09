@@ -1,0 +1,7 @@
+/app/local_settings.py
+/app.sqlite
+
+__pycache__
+
+.idea
+/.coverage

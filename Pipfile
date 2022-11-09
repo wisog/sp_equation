@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+Flask = "==2.1.2"
+Flask-Login = "==0.6.1"
+Flask-Migrate = "==3.1.0"
+Flask-SQLAlchemy = "==2.5.1"
+Flask-CLI = "==0.4.0"
+setuptools = "==45"
+pydantic = "1.9.0"
+flask_json_errorhandler = "1.0.3"
+
+[dev-packages]
+pytest = "==5.4.3"
+pytest-cov = "==2.10.0"
+flake8 = "*"
+
+[requires]
+python_version = "3.8"
